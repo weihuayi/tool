@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ "$#" -lt 1 ]
+then
+    src="."
+else
+    src=$1
+fi
+
+gitbook init $src
+cd $src
+echo '*~' > .gitignore
+echo '_book' >> .gitignore
+echo 'node_modules' >> .gitignore
+git init
+git add .
+git commit -m "initial"

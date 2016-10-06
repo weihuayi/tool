@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "the number of argument: $#"
+echo "The 0th argument:" $0
+echo "The 1st argument:" $1
+echo "The 2nd argumetn:" $2

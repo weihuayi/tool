@@ -1,0 +1,7 @@
+#!/bin/bash
+
+vim #1
+gitbook serve &
+sleep 4
+firefox localhost:4000 &
+jobs

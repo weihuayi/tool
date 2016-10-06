@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ctags --extra=+f --exclude=@.ctagsignore -R .

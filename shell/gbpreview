@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gitbook serve 
+sleep 5
+firefox localhost:4000 
