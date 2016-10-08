@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+
+docker pull williamstein/sagemathcloud                                   
+docker run --name=smc -v ~/smc:/projects -d -p 8080:80 williamstein/sagemathcloud
+
+#update
+docker run --name=smc -v ~/smc:/projects -d -p 8080:80 williamstein/sagemathcloud
+docker rm smc # delete container with name `smc`                         
+docker images # list all images                                          
+docker rmi williamstein/sagemathcloud                                    
+docker pull williamstein/sagemathcloud                                   
+docker run --name=smc -v ~/smc:/projects -d -p 8080:80 williamstein/sagemathcloud
+
+
