@@ -1,0 +1,6 @@
+#!/bin/bash
+
+docker rm smc # delete container with name `smc`
+docker rmi williamstein/sagemathcloud
+docker pull williamstein/sagemathcloud 
+docker run --name=smc -v ~/smc:/projects -d -p 8080:80 williamstein/sagemathcloud
