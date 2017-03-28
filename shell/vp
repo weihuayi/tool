@@ -1,0 +1,3 @@
+#!/bin/bash
+
+vim -O /home/why/the-principle-of-happiness/plan-everyday.md /home/why/the-principle-of-happiness/project.org
