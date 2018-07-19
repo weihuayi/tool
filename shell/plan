@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /home/why/the-principle-of-happiness/
+gvim  plan-everyday.md  project.org

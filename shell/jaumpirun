@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "$#"
+if [ "$#" -ne 4 ]; then
+  echo "Usage: $0 np  program file refine" >&2
+  exit 1
+fi
+/usr/local/jaumin/thirdparty/11.2/mpich/bin/mpirun -np $1 $2 $3 $4
