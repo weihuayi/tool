@@ -1,0 +1,7 @@
+[ui]
+username = Huayi Wei <huayiwei1984@gmail.com>
+editor = vim
+
+#设置使用 hg latest 命令来查看最近的 5 条 log
+[alias]
+latest = log --limit 5
