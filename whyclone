@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# 每次更新系统都需要做很多手工的配置，为了提高效率，特编写下面的脚本，
+# 记录下配置的过程，方便以后使用。
+#
+
+GITHUB = https://github.com/weihuayi
+hg clone https://whymath@bitbucket.org/ifem/ifem
+
+git config --global user.email "weihuayi@xtu.edu.cn"
+git config --global user.name "Huayi Wei"
+
+git clone ${GITHUB}/tool.git
+git clone ${GITHUB}/vim.git
+git clone ${GITHUB}/fealpy.git 
