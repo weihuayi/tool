@@ -91,3 +91,7 @@ apt -y install amule
 apt -y install chromium-browser
 
 
+# 录屏软件 
+apt -y install kazam
+apt -y install peek
+apt -y install recordmydesktop
