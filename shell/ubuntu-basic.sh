@@ -12,7 +12,15 @@ apt -y install language-pack-zh-hans
 
 # 安装中文输入法
 apt -y remove ibus
-apt -y install fcitx fcitx-pinyin
+apt -y install fcitx fcitx-table fcitx-pinyin
+
+# fcitx-table 可以让你加入自己的码表, 包括两个文件
+# 1. *.md
+# 2. *.conf
+# 拷贝到目录　~/.config/fcitx/table
+
+# 把个人码表符号联接到　~/.config/fcitx/table
+ln -s ../table  ~/.config/fcitx/table 
 
 
 # 编译器
