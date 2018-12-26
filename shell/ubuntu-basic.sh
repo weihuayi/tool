@@ -56,6 +56,14 @@ editor = vim
 #设置使用 hg latest 命令来查看最近的 5 条 log
 [alias]
 latest = log --limit 5" > ~/.hgrc
+
+
+# do the following manully  
+# sudo visudo
+# add "username ALL=(ALL) NOPASSWD: ALL" to the last line  
+# ctrl+x 
+# Y
+# delete .tmp
  
 # 编辑器
 apt -y install vim vim-gtk
@@ -70,6 +78,9 @@ apt -y install texlive texlive-xetex texlive-science texlive-latex-extra texlive
 
 # 并行库openmpi
 apt -y install openmpi-bin openmpi-common openmpi-checkpoint libopenmpi-dev
+
+# QT 
+apt -y install qtcreator qt5-default qt5-doc qt5-doc-html qtbase5-doc-html qtbase5-examples
 
 # 打包解压工具rar和unrar
 apt -y install rar unrar
