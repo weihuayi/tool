@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+# 
+
+echo "
+*~*
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.pdf
+*.zip
+" >> .gitignore
+

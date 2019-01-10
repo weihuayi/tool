@@ -1,4 +1,7 @@
 #! /bin/bash
+#
+#
+# 2019.01.09: update for ubuntu 18.04
 
 # 系统内核更新
 apt update
@@ -20,7 +23,7 @@ apt -y install fcitx fcitx-table fcitx-pinyin
 # 拷贝到目录　~/.config/fcitx/table
 
 # 把个人码表符号联接到　~/.config/fcitx/table
-ln -s ../table  ~/.config/fcitx/table 
+# -s ../table  ~/.config/fcitx/table 
 
 
 # 编译器
@@ -29,7 +32,7 @@ ln -s ../table  ~/.config/fcitx/table
 apt -y install build-essential gfortran automake 
 
 #python3 
-apt -y install python3 python3-dev ipython3 python3-rope python3-flake8
+apt -y install python3 python3-dev python3-pip ipython3 python3-rope python3-flake8
 
 # 版本控制
 apt -y install  git gitk mercurial 
@@ -77,10 +80,10 @@ apt -y install texlive texlive-xetex texlive-science texlive-latex-extra texlive
 # apt -y install texlive-math-extra
 
 # 并行库openmpi
-apt -y install openmpi-bin openmpi-common openmpi-checkpoint libopenmpi-dev
+apt -y install openmpi-bin openmpi-common openmpi-doc libopenmpi-dev
 
 # QT 
-apt -y install qtcreator qt5-default qt5-doc qt5-doc-html qtbase5-doc-html qtbase5-examples
+apt -y install qtcreator qt5-default 
 
 # 打包解压工具rar和unrar
 apt -y install rar unrar
@@ -112,5 +115,8 @@ apt -y install chromium-browser
 
 # 录屏软件 
 apt -y install kazam
-apt -y install peek
 apt -y install recordmydesktop
+
+
+# 专业软件
+apt -y install libmumps-dev
