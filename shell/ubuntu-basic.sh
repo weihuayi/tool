@@ -112,6 +112,9 @@ apt -y install amule
 # google 的 Chromium-brower浏览器
 apt -y install chromium-browser
 
+# gitbook 
+npm install gitbook-cli
+
 
 # 录屏软件 
 apt -y install kazam
