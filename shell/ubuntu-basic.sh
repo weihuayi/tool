@@ -34,6 +34,9 @@ apt -y install build-essential gfortran automake
 #python3 
 apt -y install python3 python3-dev python3-pip ipython3 python3-rope python3-flake8
 
+# Jupyter
+apt -y jupyter
+
 # 版本控制
 apt -y install  git gitk mercurial 
 

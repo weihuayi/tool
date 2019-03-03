@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /home/why/the-principle-of-happiness/
+cd /home/why/work/GitBook/the-principle-of-happiness/
 gvim  -O plan-everyday.md  project.org
