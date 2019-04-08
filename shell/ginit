@@ -12,6 +12,7 @@ git init $src
 cd $src
 echo '*~' > .gitignore
 echo 'build' >> .gitignore
+echo '__py*' >> .gitignore
 touch READEME.md
 git add .
 git commit -m "initial"
