@@ -23,7 +23,7 @@ apt -y install fcitx fcitx-table fcitx-pinyin
 # 拷贝到目录　~/.config/fcitx/table
 
 # 把个人码表符号联接到　~/.config/fcitx/table
-# -s ../table  ~/.config/fcitx/table 
+# ln -s ../table  ~/.config/fcitx/table 
 
 
 # 编译器
@@ -33,6 +33,7 @@ apt -y install build-essential gfortran automake
 
 #python3 
 apt -y install python3 python3-dev python3-pip ipython3 python3-rope python3-flake8
+apt -y install python3-numpy python3-scipy python3-matplotlib
 
 # Jupyter
 apt -y jupyter
@@ -125,4 +126,4 @@ apt -y install recordmydesktop
 
 
 # 专业软件
-apt -y install libmumps-dev
+#apt -y install libmumps-dev
