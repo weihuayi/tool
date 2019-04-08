@@ -73,6 +73,7 @@ latest = log --limit 5" > ~/.hgrc
 # delete .tmp
  
 # 编辑器
+apt -y install xdotool zathura latexmk
 apt -y install vim vim-gtk
 
 # 软件构建管理工具
