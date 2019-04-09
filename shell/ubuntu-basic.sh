@@ -118,7 +118,7 @@ apt -y install amule
 apt -y install chromium-browser
 
 # gitbook 
-sudo apt -y install npm
+apt -y install npm
 npm -g install gitbook-cli
 
 
