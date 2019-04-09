@@ -118,7 +118,8 @@ apt -y install amule
 apt -y install chromium-browser
 
 # gitbook 
-npm install gitbook-cli
+sudo apt -y install npm
+npm -g install gitbook-cli
 
 
 # 录屏软件 
