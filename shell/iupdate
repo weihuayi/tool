@@ -63,11 +63,12 @@ if [ ! -z $CHANGED ];then
 else
     git pull
 fi
+echo -e "\n\n"
 
 echo "Entering whysite:"
 cd ~/work/whysite/
 ./gitbook.sh
-echo "\n\n"
+echo -e "\n\n"
 
 echo "Entering numopde:"
 cd ~/work/numopde/
