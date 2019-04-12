@@ -14,6 +14,12 @@ git commit -m "update"
 git pull
 git push
 
+cd ~/work/fealpy-example/
+git add .
+git commit -m "udpate"
+git pull
+git push
+
 cd ~/work/tool/
 git add .
 git commit -m "update"
@@ -25,3 +31,18 @@ git add .
 git commit -m "update"
 git pull
 git push
+
+cd ~/work/iwrite
+git add .
+git commit -m "udpate"
+git pull
+git push
+
+cd ~/wor/whysite/
+./gitbook.sh
+
+cd ~/work/numopde/
+./gitbook.sh
+
+cd ~/work/numal/
+./gitbook.sh
