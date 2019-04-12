@@ -7,7 +7,6 @@ git_workflow () {
     git commit -m "udpate"
     git pull
     git push
-    echo -e "\n\n"
 }
 
 echo "Entering Library repo:"
@@ -18,6 +17,7 @@ if [ ! -z $CHANGED ];then
 else
     git pull
 fi
+echo -e "\n\n"
 
 echo "Enterring fealpy: "
 cd ~/work/fealpy/
@@ -27,6 +27,7 @@ if [ ! -z $CHANGED ];then
 else
     git pull
 fi
+echo -e "\n\n"
 
 echo "Entering fealpy-example:"
 cd ~/work/fealpy-example/
@@ -36,6 +37,7 @@ if [ ! -z $CHANGED ];then
 else
     git pull
 fi
+echo -e "\n\n"
 
 echo "Entering tool:"
 cd ~/work/tool/
@@ -45,6 +47,7 @@ if [ ! -z $CHANGED ];then
 else
     git pull
 fi
+echo -e "\n\n"
 
 echo "Entering whyvim:"
 cd ~/work/whyvim/
@@ -54,6 +57,7 @@ if [ ! -z $CHANGED ];then
 else
     git pull
 fi
+echo -e "\n\n"
 
 echo "Entering iwrite:"
 cd ~/work/iwrite
