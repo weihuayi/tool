@@ -8,7 +8,7 @@ git add .
 git commit -m "udpate"
 git pull
 git push
-echo "\n\n"
+echo -e "\n\n"
 
 echo "Enterring fealpy: "
 cd ~/work/fealpy/
@@ -16,7 +16,7 @@ git add .
 git commit -m "update"
 git pull
 git push
-echo "\n\n"
+echo -e "\n\n"
 
 echo "Entering fealpy-example:"
 cd ~/work/fealpy-example/
@@ -24,7 +24,7 @@ git add .
 git commit -m "udpate"
 git pull
 git push
-echo "\n\n"
+echo -e "\n\n"
 
 echo "Entering tool:"
 cd ~/work/tool/
@@ -32,7 +32,7 @@ git add .
 git commit -m "update"
 git pull
 git push
-echo "\n\n"
+echo -e "\n\n"
 
 echo "Entering whyvim:"
 cd ~/work/whyvim/
@@ -40,7 +40,7 @@ git add .
 git commit -m "update"
 git pull
 git push
-echo "\n\n"
+echo -e "\n\n"
 
 echo "Entering iwrite:"
 cd ~/work/iwrite
@@ -48,7 +48,7 @@ git add .
 git commit -m "udpate"
 git pull
 git push
-echo "\n\n"
+echo -e "\n\n"
 
 echo "Entering whysite:"
 cd ~/work/whysite/
@@ -58,9 +58,9 @@ echo "\n\n"
 echo "Entering numopde:"
 cd ~/work/numopde/
 ./gitbook.sh
-echo "\n\n"
+echo -e "\n\n"
 
 echo "Entering numal:"
 cd ~/work/numal/
 ./gitbook.sh
-echo "\n\n"
+echo -e "\n\n"
