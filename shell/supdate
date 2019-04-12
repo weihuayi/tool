@@ -1,0 +1,42 @@
+#! /bin/bash
+#
+#
+
+git_workflow () {
+    git add .
+    git commit -m "udpate"
+    git pull
+    git push
+}
+
+echo "Entering Li Ao's repo:"
+cd ~/work/liao
+CHANGED=$(git diff-index --name-only HEAD --)
+if [ ! -z $CHANGED ];then
+    git_workflow
+else
+    git pull
+fi
+echo -e "\n\n"
+
+echo "Entering Liu Jianggang's SSCFTAFEM repo:"
+cd ~/work/SSCFTAFEM
+CHANGED=$(git diff-index --name-only HEAD --)
+if [ ! -z $CHANGED ];then
+    git_workflow
+else
+    git pull
+fi
+echo -e "\n\n"
+
+echo "Entering Wang Xin's vemscft repo:"
+cd ~/work/vemscft
+CHANGED=$(git diff-index --name-only HEAD --)
+if [ ! -z $CHANGED ];then
+    git_workflow
+else
+    git pull
+fi
+echo -e "\n\n"
+
+
