@@ -1,0 +1,27 @@
+#! /bin/bash
+#
+#
+
+cd ~/Library
+git add .
+git commit -m "udpate"
+git pull
+git push
+
+cd ~/work/fealpy/
+git add .
+git commit -m "update"
+git pull
+git push
+
+cd ~/work/tool/
+git add .
+git commit -m "update"
+git pull
+git push
+
+cd ~/work/whyvim/
+git add .
+git commit -m "update"
+git pull
+git push

@@ -29,17 +29,18 @@ apt -y install fcitx fcitx-table fcitx-pinyin
 # 编译器
 # C/C++ 编译环境
 # fortran编译器gfortran 
-apt -y install build-essential gfortran automake 
+apt -y install build-essential gfortran fort77 automake 
 
 #python3 
 apt -y install python3 python3-dev python3-pip ipython3 python3-rope python3-flake8
 apt -y install python3-numpy python3-scipy python3-matplotlib
+apt -y install python3-tk
 
 # Jupyter
 apt -y jupyter
 
 # 版本控制
-apt -y install  git gitk mercurial 
+apt -y install git gitk mercurial 
 
 # 请把下面的 name 和 email 替换为你的名字和邮箱 
 echo "[user]
@@ -96,9 +97,6 @@ apt -y install rar unrar
 # 图形处理软件gimp和inkscape
 apt -y install gimp inkscape
 
-# 文献管理工具
-apt-get -y install mendeleydesktop
-
 # pdf阅读批阅工具xournal
 apt -y install xournal
 
@@ -129,3 +127,10 @@ apt -y install recordmydesktop
 
 # 专业软件
 #apt -y install libmumps-dev
+apt -y install nvidia-cuda-dev
+apt -y install libgmp-dev libmpfr-dev 
+apt -y install libboost-dev libboost-thread-dev libboost-system-dev 
+apt -y install metis
+apt -y install zlib1g-dev libblas-dev liblapack-dev
+apt -y install liblua5.3-dev
+
