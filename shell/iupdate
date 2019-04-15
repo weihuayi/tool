@@ -11,8 +11,7 @@ git_workflow () {
 
 echo "Entering Library repo:"
 cd ~/Library
-CHANGED=$(git diff-index --name-only HEAD --)
-if [ ! -z $CHANGED ];then
+if [[ `git status --porcelain` ]]; then
     git_workflow
 else
     git pull
@@ -22,8 +21,7 @@ echo -e "\n\n"
 
 echo "Enterring fealpy: "
 cd ~/work/fealpy/
-CHANGED=$(git diff-index --name-only HEAD --)
-if [ ! -z $CHANGED ];then
+if [[ `git status --porcelain` ]]; then
     git_workflow
 else
     git pull
@@ -33,8 +31,7 @@ echo -e "\n\n"
 
 echo "Entering fealpy-example:"
 cd ~/work/fealpy-example/
-CHANGED=$(git diff-index --name-only HEAD --)
-if [ ! -z $CHANGED ];then
+if [[ `git status --porcelain` ]]; then
     git_workflow
 else
     git pull
@@ -44,8 +41,7 @@ echo -e "\n\n"
 
 echo "Entering tool:"
 cd ~/work/tool/
-CHANGED=$(git diff-index --name-only HEAD --)
-if [ ! -z $CHANGED ];then
+if [[ `git status --porcelain` ]]; then
     git_workflow
 else
     git pull
@@ -55,8 +51,7 @@ echo -e "\n\n"
 
 echo "Entering whyvim:"
 cd ~/work/whyvim/
-CHANGED=$(git diff-index --name-only HEAD --)
-if [ ! -z $CHANGED ];then
+if [[ `git status --porcelain` ]]; then
     git_workflow
 else
     git pull
@@ -66,8 +61,7 @@ echo -e "\n\n"
 
 echo "Entering iwrite:"
 cd ~/work/iwrite
-CHANGED=$(git diff-index --name-only HEAD --)
-if [ ! -z $CHANGED ];then
+if [[ `git status --porcelain` ]]; then
     git_workflow
 else
     git pull
