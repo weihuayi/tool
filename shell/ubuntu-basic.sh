@@ -88,6 +88,10 @@ apt -y install texlive texlive-xetex texlive-science texlive-latex-extra texlive
 # 并行库openmpi
 apt -y install openmpi-bin openmpi-common openmpi-doc libopenmpi-dev
 
+# OpenGL
+
+apt -y install libglut3-dev
+
 # QT 
 apt -y install qtcreator qt5-default 
 
