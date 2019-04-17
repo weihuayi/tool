@@ -39,6 +39,16 @@ else
 fi
 echo -e "\n\n"
 
+echo "Entering whysc:"
+cd ~/work/whysc/
+if [[ `git status --porcelain` ]]; then
+    git_workflow
+else
+    git pull
+    git push
+fi
+echo -e "\n\n"
+
 echo "Entering tool:"
 cd ~/work/tool/
 if [[ `git status --porcelain` ]]; then
