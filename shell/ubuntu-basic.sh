@@ -33,6 +33,7 @@ apt -y install build-essential gfortran fort77 automake
 
 #python3 
 apt -y install python3 python3-dev python3-pip ipython3 python3-rope python3-flake8
+apt -y install python3-dbg # 用于 gdb 调试 python 程序
 apt -y install python3-numpy python3-scipy python3-matplotlib
 apt -y install python3-tk
 
