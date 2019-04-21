@@ -111,9 +111,6 @@ apt -y install pandoc
 # 远程登录工具openssh-server
 apt -y install openssh-server
 
-# 聊天工具 skype
-apt -y install skype 
-
 # 下载工具电驴
 apt -y install amule 
 
@@ -128,6 +125,10 @@ npm -g install gitbook-cli
 # 录屏软件 
 apt -y install kazam
 apt -y install recordmydesktop
+
+# 系统管理软件
+
+apt -y install gnome-nettool
 
 
 # 专业软件
