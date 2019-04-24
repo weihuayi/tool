@@ -140,3 +140,5 @@ apt -y install metis
 apt -y install zlib1g-dev libblas-dev liblapack-dev
 apt -y install liblua5.3-dev
 
+# snap 
+snap install mathpix-snipping-tool
