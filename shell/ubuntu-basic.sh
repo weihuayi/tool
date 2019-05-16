@@ -84,6 +84,7 @@ apt -y install cmake cmake-qt-gui
 
 # 文档编译器texlive
 apt -y install texlive texlive-xetex texlive-science texlive-latex-extra texlive-fonts-extra texlive-lang-cjk
+apt -y install texlive-extra-utils
 # apt -y install texlive-math-extra
 
 # 并行库openmpi
