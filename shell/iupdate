@@ -79,7 +79,7 @@ else
 fi
 echo -e "\n\n"
 
-echo "Entering iwrite:"
+echo "Entering pisa/pisa2018:"
 cd ~/work/pisa/pisa2018
 if [[ `git status --porcelain` ]]; then
     git_workflow
@@ -88,6 +88,17 @@ else
     git push
 fi
 echo -e "\n\n"
+
+echo "Entering pisa/pisa2021:"
+cd ~/work/pisa/pisa2021
+if [[ `git status --porcelain` ]]; then
+    git_workflow
+else
+    git pull
+    git push
+fi
+echo -e "\n\n"
+
 
 echo "Entering whysite:"
 cd ~/work/whysite/
