@@ -79,6 +79,16 @@ else
 fi
 echo -e "\n\n"
 
+echo "Entering iwrite:"
+cd ~/work/pisa/pisa2018
+if [[ `git status --porcelain` ]]; then
+    git_workflow
+else
+    git pull
+    git push
+fi
+echo -e "\n\n"
+
 echo "Entering whysite:"
 cd ~/work/whysite/
 ./gitbook.sh
