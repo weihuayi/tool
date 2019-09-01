@@ -29,8 +29,8 @@ else
 fi
 echo -e "\n\n"
 
-echo "Entering fealpy-example:"
-cd ~/work/fealpy-example/
+echo "Entering class:"
+cd ~/work/class/
 if [[ `git status --porcelain` ]]; then
     git_workflow
 else
