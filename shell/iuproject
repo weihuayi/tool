@@ -1,0 +1,50 @@
+#! /bin/bash
+#
+#
+
+git_workflow () {
+    git add .
+    git commit -m "udpate"
+    git pull
+    git push
+}
+
+echo "Enterring fembook: "
+cd ~/work/iwrite/project/fembook
+if [[ `git status --porcelain` ]]; then
+    git_workflow
+else
+    git pull
+    git push
+fi
+echo -e "\n\n"
+
+echo "Enterring linear_elasticity: "
+cd ~/work/iwrite/project/linear_elasticity
+if [[ `git status --porcelain` ]]; then
+    git_workflow
+else
+    git pull
+    git push
+fi
+echo -e "\n\n"
+
+echo "Enterring prism: "
+cd ~/work/iwrite/project/fembook
+if [[ `git status --porcelain` ]]; then
+    git_workflow
+else
+    git pull
+    git push
+fi
+echo -e "\n\n"
+
+echo "Enterring mego: "
+cd ~/work/iwrite/project/mego
+if [[ `git status --porcelain` ]]; then
+    git_workflow
+else
+    git pull
+    git push
+fi
+echo -e "\n\n"
