@@ -48,3 +48,13 @@ else
     git push
 fi
 echo -e "\n\n"
+
+echo "Enterring mego: "
+cd ~/work/iwrite/project/transmission
+if [[ `git status --porcelain` ]]; then
+    git_workflow
+else
+    git pull
+    git push
+fi
+echo -e "\n\n"
