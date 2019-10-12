@@ -49,7 +49,7 @@ else
 fi
 echo -e "\n\n"
 
-echo "Enterring mego: "
+echo "Enterring transmission: "
 cd ~/work/iwrite/project/transmission
 if [[ `git status --porcelain` ]]; then
     git_workflow
