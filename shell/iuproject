@@ -30,7 +30,7 @@ fi
 echo -e "\n\n"
 
 echo "Enterring prism: "
-cd ~/work/iwrite/project/fembook
+cd ~/work/iwrite/project/prism
 if [[ `git status --porcelain` ]]; then
     git_workflow
 else
@@ -51,6 +51,16 @@ echo -e "\n\n"
 
 echo "Enterring transmission: "
 cd ~/work/iwrite/project/transmission
+if [[ `git status --porcelain` ]]; then
+    git_workflow
+else
+    git pull
+    git push
+fi
+echo -e "\n\n"
+
+echo "Enterring vem: "
+cd ~/work/iwrite/project/vem
 if [[ `git status --porcelain` ]]; then
     git_workflow
 else
