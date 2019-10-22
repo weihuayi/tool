@@ -68,3 +68,23 @@ else
     git push
 fi
 echo -e "\n\n"
+
+echo "Enterring paper avem: "
+cd ~/work/iwrite/copaper/avem
+if [[ `git status --porcelain` ]]; then
+    git_workflow
+else
+    git pull
+    git push
+fi
+echo -e "\n\n"
+
+echo "Enterring paper adaptive: "
+cd ~/work/iwrite/copaper/adaptive
+if [[ `git status --porcelain` ]]; then
+    git_workflow
+else
+    git pull
+    git push
+fi
+echo -e "\n\n"
