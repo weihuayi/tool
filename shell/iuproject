@@ -69,6 +69,16 @@ else
 fi
 echo -e "\n\n"
 
+echo "Enterring sfem: "
+cd ~/work/iwrite/project/sfem
+if [[ `git status --porcelain` ]]; then
+    git_workflow
+else
+    git pull
+    git push
+fi
+echo -e "\n\n"
+
 echo "Enterring paper avem: "
 cd ~/work/iwrite/copaper/avem
 if [[ `git status --porcelain` ]]; then
