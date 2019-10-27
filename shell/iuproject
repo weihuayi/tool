@@ -70,7 +70,7 @@ fi
 echo -e "\n\n"
 
 echo "Enterring phfem: "
-cd ~/work/iwrite/project/pfvem
+cd ~/work/iwrite/project/phfem
 if [[ `git status --porcelain` ]]; then
     git_workflow
 else
