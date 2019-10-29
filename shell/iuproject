@@ -69,8 +69,8 @@ else
 fi
 echo -e "\n\n"
 
-echo "Enterring phfem: "
-cd ~/work/iwrite/project/phfem
+echo "Enterring qhfem: "
+cd ~/work/iwrite/project/qhfem
 if [[ `git status --porcelain` ]]; then
     git_workflow
 else
